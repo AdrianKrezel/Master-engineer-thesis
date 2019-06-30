@@ -1,0 +1,186 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Adrian Adrian, Adrian, LIC=JDAMM-XW97S-EYJVT-RN29K-PY1SN-8MVAV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\Adrian\Desktop\8.6. Wersja ostateczna\MGRF7.uvprojx
+Project File Date:  04/01/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+main.c(143): warning:  #940-D: missing return statement at end of non-void function "PWM_integer"
+  }
+main.c(119): warning:  #550-D: variable "wartosc" was set but never used
+      int wartosc = 0;
+main.c(218): warning:  #223-D: function "LED_Initialize" declared implicitly
+  	LED_Initialize();
+main.c(302): warning:  #223-D: function "LED_On" declared implicitly
+  		LED_On(0);
+main.c(325): warning:  #223-D: function "LED_Off" declared implicitly
+  		LED_Off(0);
+main.c(497): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim2);
+main.c(534): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim3);
+main.c(571): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim4);
+main.c(627): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim8);
+main.c(661): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim11);
+main.c(695): warning:  #223-D: function "HAL_TIM_MspPostInit" declared implicitly
+    HAL_TIM_MspPostInit(&htim12);
+main.c(403): warning:  #177-D: function "MPU_Config" was declared but never referenced
+  static void MPU_Config(void)
+main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=21156 RO-data=1076 RW-data=396 ZI-data=2196  
+".\Objects\przerbiankaF7.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta12.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.2.0.pack
+                ::Board Support:LED:1.00 (API)
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: LED Version: 1.00
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F7xx_DFP.2.7.0.pack
+                ::Device:STM32Cube Framework:1.0.0 (API)
+                STMicroelectronics STM32F7 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Startup Version: 1.1.0
+   * Component: DMA2D Version: 1.1.0
+   * Component: Cortex Version: 1.1.0
+   * Component: DMA Version: 1.1.0
+   * Component: GPIO Version: 1.1.0
+   * Component: I2C Version: 1.1.0
+   * Component: Flash Version: 1.1.0
+   * Component: Classic Version: 1.1.0
+   * Component: Common Version: 1.1.0
+   * Component: USART Version: 1.1.0
+   * Component: UART Version: 1.1.0
+   * Component: LTDC Version: 1.1.0
+   * Component: PWR Version: 1.1.0
+   * Component: TIM Version: 1.1.0
+   * Component: RCC Version: 1.1.0
+   * Component: SDRAM Version: 1.1.0
+   * Component: LED Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Adrian\Desktop\8.6. Wersja ostateczna\RTE
+  C:\Users\Adrian\Desktop\8.6. Wersja ostateczna\RTE\Device\STM32F746NGHx
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.2.0\Board
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\STM32F7xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: ::Board Support:LED:1.00 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: Keil::Device:Startup:1.1.0
+      Source file:   Drivers\CMSIS\Device\ST\STM32F7xx\Source\Templates\arm\startup_stm32f746xx.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F7xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F7xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F7xx\Source\Templates\system_stm32f7xx.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA2D:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:I2C:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:Flash:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.1.0
+      Include file:  MDK\Templates\Inc\stm32f7xx_it.h
+      Include file:  MDK\Templates\Inc\stm32f7xx_hal_conf.h
+      Source file:   MDK\Templates\Src\stm32f7xx_it.c
+      Include file:  MDK\Templates\Inc\main.h
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Source file:   MDK\Templates\Src\stm32f7xx_hal_msp.c
+      Source file:   MDK\Templates\Src\main.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c
+      Include file:  Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:USART:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_usart.c
+
+   * Component: Keil::Device:STM32Cube HAL:UART:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c
+
+   * Component: Keil::Device:STM32Cube HAL:LTDC:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c
+
+   * Component: Keil::Device:STM32Cube HAL:TIM:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c
+
+   * Component: Keil::Device:STM32Cube HAL:SDRAM:1.1.0
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sdram.c
+      Source file:   Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c
+
+   * Component: Keil.STM32F746G-Discovery::Board Support:LED:1.0.0
+      Source file:   MDK\Boards\ST\STM32F746G_Discovery\Common\LED_746G_Discovery.c
+Build Time Elapsed:  00:00:15
+</pre>
+</body>
+</html>
